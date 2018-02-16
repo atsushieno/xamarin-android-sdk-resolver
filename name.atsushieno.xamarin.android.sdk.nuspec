@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>name.atsushieno.xamarin.android.sdk</id>
+    <version>1.0.1</version>
+    <authors>atsushieno</authors>
+    <owners>atsushieno</owners>
+    <licenseUrl>http://https://github.com/atsushieno/xamarin-android-sdk-resolver/LICENSE</licenseUrl>
+    <projectUrl>http://https://github.com/atsushieno/xamarin-android-sdk-resolver</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>experimental MSBuild custom SDK resolver for Xamarin.Android</description>
+    <releaseNotes>See github commit logs.</releaseNotes>
+    <copyright>Copyright (C) 2018 Microsoft Corporation</copyright>
+    <tags></tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="build/Sdk/Sdk.props" target="build/Sdk" />
+    <file src="build/Sdk/Sdk.targets" target="build/Sdk" />
+  </files>
+</package>
