@@ -1,4 +1,12 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0" Sdk="name.atsushieno.xamarin.android.sdk">
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+
+  <Import Project="..\packages\name.atsushieno.xamarin.android.sdk.1.0.6\build\name.atsushieno.xamarin.android.sdk.props" Condition="Exists('..\packages\name.atsushieno.xamarin.android.sdk.1.0.6\build\name.atsushieno.xamarin.android.sdk.props')" />
+
+  <ItemGroup>
+    <PackageReference Include="name.atsushieno.xamarin.android.sdk" Version="1.0.6" PrivateAssets="All" />
+  </ItemGroup>
+
+  <Import Project="..\packages\name.atsushieno.xamarin.android.sdk.1.0.6\build\name.atsushieno.xamarin.android.sdk.targets" Condition="Exists('..\packages\name.atsushieno.xamarin.android.sdk.1.0.6\build\name.atsushieno.xamarin.android.sdk.targets')" />
 
 </Project>
 
