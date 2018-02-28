@@ -1,6 +1,6 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_XamarinAndroidInPackageTargets>$(MSbuildThisFileDirectory)..\build\Xamarin.Android.CSharp.targets</_XamarinAndroidInPackageTargets>
+    <_XamarinAndroidInPackageTargets>$(MSbuildThisFileDirectory)..\build\Xamarin\Android\Xamarin.Android.CSharp.targets</_XamarinAndroidInPackageTargets>
   </PropertyGroup>
   <Import Project="$(_XamarinAndroidInPackageTargets)" 
     Condition="Exists('$(_XamarinAndroidInPackageTargets)')" />
